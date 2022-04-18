@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container{
+    width: 90%;
+    margin: 20px auto;
+    padding: 10px;
+    display: flex;
+    background: -moz-linear-gradient(to right, rgba(0, 128, 0, 0.226),rgba(0, 0, 255, 0.158),rgba(255, 192, 203, 0.171),rgba(255, 255, 0, 0.094),rgba(165, 42, 42, 0.107));
+}
+.left{
+width: 35%;
+background: -moz-radial-gradient(rgba(0, 128, 0, 0.128) ,rgba(rgba(255, 192, 203, 0.215), 255, 0.187),pink,rgba(46, 139, 86, 0.151));
+box-shadow: 0 0 4px 3px rgba(0, 0, 0, 0.062);
+margin-right: 15px;
+}
+.right{
+    width: 65%;
+}
+.left #form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#form label{
+    font-size: 2vw;
+    margin-top: 20px ;
+    margin-bottom: 10px;
+    float: inline-start;
+}
+
+#form #submit{
+    max-width: fit-content;
+    padding: 4px;
+    margin-top: 20px;
+}
+.box{
+    display: flex;
+    margin: 0;
+    margin-top: 10px;
+    padding: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+.right h2{
+    margin: 10px auto;
+    font-size: 3vw;
+}
+.box span{
+    display: flex;
+    align-items: center;
+    width: 10vw;
+}
+.box h4{
+    width: 10vw;
+    flex-wrap: wrap;
+}
+.box p{
+    width: 30vw;
+}
+.box small{
+    width: 5vw;
+    margin: 0 2%;
+}
+.box span button, #submit{
+    padding: 6px 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid red;
+    background: maroon;
+    color: white;
+    border-radius: 10px;
+}
+.error{
+    color: red;
+    margin-top: 5px;
+
+}
+.name1{
+    text-align: center;
+    margin: 20px auto;
+    font-size: 5vw;
+    color: aqua;
+    transition:  ease-in-out;
+}
+.name1{
+    animation: colorchange 10s infinite;
+} 
+@keyframes colorchange{
+    0%{
+        color: red;
+    }
+    10%{
+        color: pink;
+        transform: translateX(-40px);
+    }
+    20%{
+        color: rgb(243, 209, 209);
+    }
+    30%{
+        color: rgb(171, 138, 77);
+        transform: scale(1.1);
+    }
+    40%{
+        color: rgb(188, 188, 230);
+    }
+    50%{
+        color: palegoldenrod;
+    }
+    60%{
+        color: khaki;
+        transform: scale(1.1);
+    }
+    70%{
+        color: indianred;
+    }
+    80%{
+        color:rebeccapurple;
+    }
+    90%{
+        color:tan;
+        transform: translateX(30px);
+    }
+    100%{
+        color: palegreen;
+    }
+
+
+
+}

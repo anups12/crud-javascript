@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 class="name1">To Do list App</h1>
+    <div class="container">
+        <div class="left">
+            <form action="" id="form">
+                <label for="text">Add task title  </label>
+                <input name="text" id="text" placeholder="Add task title "  style="width: 221px; height: 25px;" >
+                <div class="error" id="txterror"></div>
+                <label for="date">Due date </label>
+                <input type="date" name="date" id="date"  placeholder=" nonoe" value="" style="width: 221px; height: 25px;" >
+                 <div class="error" id="dateerror"></div>   
+                <label for="desc">Enter your text here </label>
+                <textarea name="desc" id="desc"  style="width: 278px; height: 139px;" ></textarea>
+                <div class="error" id="descerror"></div>
+                <input type="submit"  value="Submit" id="submit">
+            </form>
+        </div>
+        <div class="right" id="right">
+            <h2>Your Posts here</h2>
+            <div id="box-cont">
+               
+            </div>
+            <br>
+          
+        </div>
+    </div>
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
